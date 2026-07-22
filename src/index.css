@@ -1,14 +1,12 @@
 @import "tailwindcss";
 
 .background {
-  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
-  background-size: 36px 36px;
-  background-position: 0 0, 18px 18px;
-  background-color: #b1d2ff;
+  background: url("https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3M3l6cDcyeWp0aWZ3OHA1ejFzOWU2b2JkNHZ4Y3U5bTEwajFxZmtkbCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LTSh3jYtZlH8ar3fGm/giphy.gif") center/cover no-repeat fixed;
+  min-height: 100vh;
+  width: 100%;
 }
 
 
-/* css loader generated using https://10015.io/tools/css-loader-generator */
 .spinner {
   width: 56px;
   height: 56px;

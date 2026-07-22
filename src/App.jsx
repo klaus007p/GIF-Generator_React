@@ -1,16 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Random from './components/Random'
+import Tag from './components/Tag'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-    <>
-     <div>Hello sir how you do</div>
-    </>
+    <div className="w-full h-full flex flex-col background items-center">
+      <h1 className="bg-yellow-300 hover:bg-yellow-600  w-11/12 text-center mt-40px px-25px py-10px rounded-lg text-3xl font-bold">RANDOM GIFS</h1>
+
+      <div className="w-1/2 flex flex-col items-center gap-y-10 mt-30px">
+        <Random />
+        <Tag />
+        
+      </div>
+    </div>
   )
 }
 
